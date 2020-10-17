@@ -8,11 +8,11 @@ end
 def read_from_hash(hash, key)
   hash_to_read[:key]
 end
-people = {:a => "Steve", b: 'Tzvi'}
+person = {:a => "Steve", b: 'Tzvi'}
 
-read_from_hash(hash_to_read, :a)
-read_from_hash(hash_to_read, :b)
-read_from_hash(hash_to_read)
+read_from_hash(person, :a)
+read_from_hash(person, :b)
+read_from_hash(person, :c)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
