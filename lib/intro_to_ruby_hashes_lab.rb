@@ -11,7 +11,8 @@ end
 
 n = {a: 'Steve', b: 'Tzvi'}
 
-read_from_hash({name: 'a'}, :name)
+read_from_hash({n: 'a'}, :name)
+read_from_hash({n: 'b'}, :name)
 
 
 def update_counting_hash(hash, key)
