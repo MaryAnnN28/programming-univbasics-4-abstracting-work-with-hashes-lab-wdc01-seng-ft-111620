@@ -7,6 +7,7 @@ end
 
 def read_from_hash(hash, key)
   name: ["Steve", "Tzvi"]
+  age: ["31", "34"]
   hash_to_read = {:name => "Steve", :age => "31"}
   hash_to_read = {:name => "Tzvi"}
   hash_to_read[:name]
