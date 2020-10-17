@@ -10,7 +10,7 @@ def read_from_hash(hash, key)
     :name => 'Steve',
     :age => '31'
   }
-  hash_to_read[:name]
+  puts hash_to_read[:name]
 end
 
 
