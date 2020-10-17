@@ -8,6 +8,7 @@ end
 def read_from_hash(hash, key)
   hash_to_read = {:name => "Steve", :age => "31"}
   hash_to_read = {:name => "Tzvi"}
+  hash_to_read[:name]
 end
 
 
