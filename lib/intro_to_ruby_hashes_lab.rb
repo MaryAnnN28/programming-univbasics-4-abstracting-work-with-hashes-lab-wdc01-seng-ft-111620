@@ -7,7 +7,8 @@ end
 
 def read_from_hash(hash, key)
   hash_to_read = {
-    name: ["Steve", "Tzvi"]
+    name: "Steve",
+    name: "Tzvi"
   }
 end
 
