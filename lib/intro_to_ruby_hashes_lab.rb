@@ -10,7 +10,7 @@ def read_from_hash(hash, key)
     name: ["Steve", "Tzvi"],
     age: ["31", "34"]
   }
-
+hash_to_read[name]
 end
 
 
