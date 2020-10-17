@@ -8,8 +8,6 @@ end
 def read_from_hash(hash, key)
   hash_to_read = {
     name: ["Steve", "Tzvi"]
-    age: ["31", "34"]
-    "Tzvi" => " "
   }
 
  hash_to_read[name]
