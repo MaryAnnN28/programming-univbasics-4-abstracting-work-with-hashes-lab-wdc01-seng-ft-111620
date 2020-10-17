@@ -6,7 +6,7 @@ end
 
 
 def read_from_hash(hash, key)
-  hash_to_read[key]
+  hash[key]
 end
 
 name = {a: 'Steve', b: 'Tzvi'}
