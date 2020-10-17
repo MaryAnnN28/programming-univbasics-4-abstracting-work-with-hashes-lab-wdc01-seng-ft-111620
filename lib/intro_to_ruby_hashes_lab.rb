@@ -2,9 +2,7 @@ def my_hash_creator(key, value)
   { key => value }
 end
 name = {a: "Grace Hopper"}
-=> number = {'1': '2'}
 my_hash_creator(:name, 'a')
-my_hash_creator({:number, '1'})
 
 def read_from_hash(hash, key)
   hash[key]
