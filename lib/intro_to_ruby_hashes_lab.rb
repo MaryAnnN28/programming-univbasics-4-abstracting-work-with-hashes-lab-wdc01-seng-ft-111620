@@ -16,7 +16,7 @@ read_from_hash({name: 'b'}, :name)
 def update_counting_hash(hash, key)
   if hash[key]
 
-  else 
+  else
 
   end
 end
