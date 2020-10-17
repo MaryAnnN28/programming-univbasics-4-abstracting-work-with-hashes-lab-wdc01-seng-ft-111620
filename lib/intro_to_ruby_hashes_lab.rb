@@ -3,9 +3,9 @@ def my_hash_creator(key, value)
   my_hash_creator(1, 2)
 end
 
-read_from_hash(hash, key)
 
-def read_from_hash(hash_to_read, key)
+
+def read_from_hash(hash, key)
   hash_to_read = { :name => 'Steve', :age => '31'}
   read_from_hash(hash_to_read, :name)
 end
