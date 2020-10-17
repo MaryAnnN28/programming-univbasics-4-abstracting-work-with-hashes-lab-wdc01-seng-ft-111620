@@ -11,8 +11,6 @@ end
 name = {:a => "Steve", b: 'Tzvi'}
 
 read_from_hash({name: "Steve"}, :name)
-read_from_hash(person, :b)
-read_from_hash(person, :c)
 
 
 def update_counting_hash(hash, key)
