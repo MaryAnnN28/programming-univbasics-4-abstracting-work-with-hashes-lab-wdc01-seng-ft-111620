@@ -12,6 +12,10 @@ describe "working with hashes" do
     end
   end
 
+
+
+
+
   describe "read_from_hash" do
     it "returns the value corresponding to the provided key" do
       expect(read_from_hash({name: 'Steve'}, :name)).to eq('Steve')
@@ -23,7 +27,10 @@ describe "working with hashes" do
     end
   end
 
-  describe "updating data in a hash" do
+
+
+
+describe "updating data in a hash" do
     describe "update_counting_hash" do
       it "accepts a hash and key as parameters" do
         expect{ update_counting_hash({},'hello') }.to_not raise_error
