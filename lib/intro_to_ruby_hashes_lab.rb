@@ -8,7 +8,7 @@ end
 def read_from_hash(hash, key)
   hash_to_read[key]
 end
-name = {:a => "Steve", b: 'Tzvi'}
+name = {a: 'Steve', b: 'Tzvi'}
 
 read_from_hash({name: "Steve"}, :name)
 
