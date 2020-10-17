@@ -9,10 +9,10 @@ def read_from_hash(hash, key)
   hash[key]
 end
 
-n = {a: 'Steve', b: 'Tzvi'}
+name = {a: 'Steve', b: 'Tzvi'}
 
-read_from_hash({n: 'a'}, :name)
-read_from_hash({n: 'b'}, :name)
+read_from_hash({name: 'a'}, :name)
+read_from_hash({name: 'b'}, :name)
 
 
 def update_counting_hash(hash, key)
