@@ -5,7 +5,7 @@ end
 
 read_from_hash(hash, key)
 
-def read_from_hash(hash, key)
+def read_from_hash(hash_to_read, key)
   hash_to_read = { :name => 'Steve', :age => '31'}
   read_from_hash(hash_to_read, :name)
 end
