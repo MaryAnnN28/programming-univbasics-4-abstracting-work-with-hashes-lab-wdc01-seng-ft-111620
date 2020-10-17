@@ -8,9 +8,7 @@ end
 def read_from_hash(hash, key)
   hash[key]
 end
-
 name = {a: 'Steve', b: 'Tzvi'}
-
 read_from_hash({name: 'a'}, :name)
 read_from_hash({name: 'b'}, :name)
 
