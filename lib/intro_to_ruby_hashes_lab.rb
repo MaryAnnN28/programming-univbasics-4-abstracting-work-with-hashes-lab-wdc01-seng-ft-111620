@@ -6,9 +6,9 @@ end
 
 
 def read_from_hash(hash, key)
-  hash_to_read = {
-    "Steve" => "31"
-    "Tzvi" => " "
+  name = {
+    :Steve => "31"
+    :Tzvi => " "
  hash_to_read[name]
  }
 end
