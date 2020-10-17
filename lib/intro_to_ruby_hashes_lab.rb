@@ -9,8 +9,8 @@ def read_from_hash(hash, key)
   hash_to_read = {
     name: ["Steve", "Tzvi"],
     age: ["31", "34"]
-  }
-hash_to_read[name]
+ hash_to_read[name]
+ }
 end
 
 
