@@ -1,5 +1,5 @@
 def my_hash_creator(key, value)
-  { name => "Grace Hopper", 1 => 2 } 
+  { name => "Grace Hopper", 1 => 2 }
   hash(:name, "Grace Hopper")
 end
 
